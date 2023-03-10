@@ -15,9 +15,9 @@ The trained models for both the tasks can be found at the Google Drive link: htt
 | DenseNet201                      | 15     | 64         | 0.0001        | 0.97      | 0.97      |
 | Ensemble_DenseNet161_DenseNet201 | 10     | 32         | 0.0001        | 0.98      | 0.98      |
 
-### Final Combined (Averaged) AUC (OVO) = 0.99
+Final Combined (Averaged) AUC (OVO) = **0.99**
 
-### Final Combined (Averaged) AUC (OVR) = 0.99
+Final Combined (Averaged) AUC (OVR) = **0.99**
 
 ### Final Results for Combined (Averaged) Predictions:
 
