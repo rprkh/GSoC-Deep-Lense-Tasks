@@ -6,15 +6,15 @@ The trained models for both the tasks can be found at the Google Drive link: htt
 
 ### Models Used:
 
-| Deep Learning Model              | Epochs | Batch Size | Learning Rate | AUC (OVO) | AUC (OVR) |
-| :------------------------------- | :----- | :--------- | :------------ | :-------- | :-------- |
-| DenseNet161                      | 2      | 64         | 0.0001        | 0.97      | 0.97      |
-| DenseNet161                      | 6      | 64         | 0.0001        | 0.97      | 0.97      |
-| DenseNet161                      | 15     | 64         | 0.0001        | 0.98      | 0.98      |
-| MobileVitV2_150                  | 15     | 32         | 0.0001        | 0.95      | 0.95      |
-| DenseNet201                      | 15     | 64         | 0.0001        | 0.97      | 0.97      |
-| Ensemble_DenseNet161_DenseNet201 | 10     | 32         | 0.0001        | 0.98      | 0.98      |
-| Averaged Model Predictions       | -      | -          | -             | 0.99      | 0.99      |
+| Deep Learning Model                         | Epochs | Batch Size | Learning Rate | AUC (OVO) | AUC (OVR) |
+| :------------------------------------------ | :----- | :--------- | :------------ | :-------- | :-------- |
+| DenseNet161                                 | 2      | 64         | 0.0001        | 0.97      | 0.97      |
+| DenseNet161                                 | 6      | 64         | 0.0001        | 0.97      | 0.97      |
+| DenseNet161                                 | 15     | 64         | 0.0001        | 0.98      | 0.98      |
+| MobileVitV2_150                             | 15     | 32         | 0.0001        | 0.95      | 0.95      |
+| DenseNet201                                 | 15     | 64         | 0.0001        | 0.97      | 0.97      |
+| Ensemble_DenseNet161_DenseNet201            | 10     | 32         | 0.0001        | 0.98      | 0.98      |
+| Combined (Averaged) Model Predictions       | -      | -          | -             | 0.99      | 0.99      |
 
 ### Final Results for Combined (Averaged) Predictions:
 
@@ -29,7 +29,7 @@ The trained models for both the tasks can be found at the Google Drive link: htt
 | ViT_Base_Patch_16_224                               | 20     | 64         | 0.0001        | 0.99800   | 0.99800   |
 | Swin_Base_Patch4_Window7_224                        | 20     | 32         | 1e-05         | 0.99975   | 0.99975   |
 | Ensemble_Swin_s3_Base_224_Swinv2_cr_Base_224        | 20     | 16         | 1e-05         | 0.99997   | 0.99997   |
-| Averaged Model Predictions                          | -      | -          | -             | 1.00000   | 1.00000   |
+| Combined (Averaged) Model Predictions               | -      | -          | -             | 1.00000   | 1.00000   |
 
 ### Final Results for Combined (Averaged) Predictions:
 
